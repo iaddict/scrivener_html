@@ -43,7 +43,7 @@ defmodule ScrivenerHtml.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:scrivener, "~> 0.13.0"},
+      {:scrivener, "~> 1.0.0"},
       {:phoenix_html, "~> 1.4"},
       {:phoenix, "~> 0.16.0", optional: true},
       {:pavlov, "~> 0.2.3", only: :test},
